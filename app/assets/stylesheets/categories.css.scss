@@ -1,0 +1,12 @@
+@for $i from 0 through 4 {
+    .tree_#{$i} {
+      @if $i == 0{
+        font-weight: bold;
+        font-size: 14px;
+        color: #000;
+      }@else{
+        padding-left: #{$i * 10}px;
+        color: #333;
+      }
+    }
+}
