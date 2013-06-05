@@ -9,7 +9,7 @@ module Tree
     end
 
     def name_for_tree
-      "<span class='tree_#{depth}'>#{name}".html_safe
+      "<span class='tree_#{depth}'>#{name}</span>".html_safe
     end
 
     def possible_parents
