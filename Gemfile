@@ -1,22 +1,18 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0.beta1'
+gem 'rails', '4.2.7.1'
 
 gem 'sqlite3'
 
-# Gems used only for assets and not required
-# in production environments by default.
-group :assets do
-  gem 'sass-rails',   '~> 4.0.0.beta1'
-  gem 'coffee-rails', '~> 4.0.0.beta1'
+gem 'sass-rails', '~> 5.0'
+gem 'coffee-rails', '~> 4.1.0'
 
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', platforms: :ruby
+# See https://github.com/sstephenson/execjs#readme for more supported runtimes
+# gem 'therubyracer', platforms: :ruby
 
-  gem 'uglifier', '>= 1.0.3'
-  gem 'bootstrap-sass', '2.3.1.0'
-end
+gem 'uglifier', '>= 1.3.0'
+gem 'bootstrap-sass'
 
 gem 'jquery-rails'
 
@@ -24,9 +20,9 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.0.1'
+gem 'jbuilder', '~> 2.0'
 
-gem 'ancestry', github: 'stefankroes/ancestry'
+gem 'ancestry'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
